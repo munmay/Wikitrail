@@ -1,0 +1,78 @@
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #F4F0ED;
+		}
+		ul{
+			list-style: none;
+			padding: 0;
+		}
+
+/*Outline of 1 trail*/
+
+		.trail{ /*wrapper*/
+			margin:0 0 25px	 0;
+		}
+
+
+		li.list-trail{ /*start of trail*/
+			border: #CCC solid;
+			border-width: 0.1em 0;
+		}
+		.main-image 
+		{
+			margin: .2em 0 0 .2em;
+		}
+		.list-main-content{
+			float: left;
+			padding-left: 25px;
+		}
+		.list-trail-last{
+			border: #CCC solid;
+			border-width: 0em 0 0.1em;
+		}
+
+
+		li.list-trail-single{ /*when wikilost*/
+			border: #CCC solid;
+			border-width: 0.1em 0;
+			padding-bottom: 0.2em;
+			display: flex;
+		}
+		.list-image{ 
+			float: left;
+			width:90px;
+			padding-bottom: 0.2em;
+		}	
+
+
+/*Data*/
+
+		.trail-date{
+			font: 0.8em helvetica, sans-serif;
+			color: #999;
+			margin: 1.5em 0.5em 0.5em 2.5em;
+		}
+		.list-header{
+			font: bold 1em helvetica, sans-serif;
+			color: #E1793D;
+			margin: 0 0.5em 1.5em 2em;
+			text-transform: uppercase;
+		}
+
+		.title{
+			font: bold 1.2em helvetica, sans-serif;
+			color: #333;
+			margin: 1em 0em 0.5em 1em;
+			width: 		
+		}
+		.description{
+			font: 1em helvetica, sans-serif;
+			color: #777;
+			margin: 0.8em 0em 0.5em 1.2em;		
+		}
+
+		.clear
+		{
+			clear:both;
+		}

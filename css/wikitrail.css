@@ -1,0 +1,407 @@
+@font-face {
+	font-family: 'WikiFont-Regular';
+	src: url('../fonts/WikiFont.eot'); 
+	src: url('../fonts/WikiFont.eot?#iefix') format('embedded-opentype'), 
+	url('../fonts/WikiFont.woff') format('woff'), 
+	url('../fonts/WikiFont.ttf')  format('truetype'), 
+	url('../fonts/WikiFont.svg#8088f7bbbdba5c9832b27edb3dfcdf09') format('svg'); 
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F4F0ED;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.clear{
+	clear:both;
+}
+
+.vert-center{
+	position: relative; 
+	-webkit-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+}
+
+
+/*SEPARATOR*/
+
+.trail-icon	{
+	position: absolute;
+	bottom: -18px;
+	left:-34px;
+}
+.trail-separator {
+	width:100%;
+	overflow:inherit;
+}
+.trail-separator-inner {
+	margin-left: 140px;
+	border-bottom: .1em #CCC solid;
+	position:relative;
+}
+
+
+/*START*/
+
+.list-wrap{
+	border: #CCC solid;
+	border-width: 1px 0 1px 0px; 
+	width: 100%;
+	padding-bottom: .2em;
+	margin-bottom: 2em;
+}
+
+.image-start {
+	width:90px;
+	min-width: 90px;
+	float: left;
+	margin: .2em 0 0 .2em;
+}
+
+.image-next{
+	margin-top: .2em;
+	background-color: gray;
+}
+
+.list-content-start{
+	float: left;
+}
+
+.trail-next{
+	float: left;
+	padding: 0 0 0 .2em;	
+}
+
+
+
+/*INFO*/
+
+
+.trail-date{
+	font: 0.8em helvetica, sans-serif;
+	color: #999;
+	margin: 1.5em 0.5em 0.5em 2.5em;
+}
+.trail-header{
+	font: bold 1em helvetica, sans-serif;
+	color: #E1793D;
+	margin: 0 0.5em 1.5em 2em;
+	text-transform: uppercase;
+}
+.desc-title{
+	font: bold 1.2em helvetica, sans-serif;
+	color: #333;
+	margin: .5em 0em .5em 1em;
+	width: 		
+}
+.description{
+	font: 1em helvetica, sans-serif;
+	color: #777;
+	margin: 0.8em 0em 0.5em 1.2em;		
+}
+
+
+
+
+
+
+
+
+
+/*.trail{
+	margin:0 0 25px	 0;
+}
+.lost{
+	position: relative;
+}
+.list-trail-start{ 
+	border: #CCC solid;
+	border-width: 0.1em 0 0;
+}
+.list-trail-end{
+	border: #CCC solid;
+	border-width: 0em 0 0.1em;
+	float: left;
+	width: 100%;
+}
+.image-end{
+	width:90px;
+	min-width: 90px;
+	float: left;
+	margin: 0.2em 0 .2em .2em;
+}
+.list-left{
+	float: left;
+	width:90px;
+}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.WikiFont {
+	display: inline-block;
+	font-family: 'WikiFont-Regular';
+	-webkit-font-smoothing: antialiased;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: inherit;
+	color: #777;
+	overflow: visible;
+	vertical-align: text-bottom;
+}
+
+/* UI ELEMENTS e000-023
+*/
+
+.WikiFont-magnifying-glass:before {
+	content: "\e000";
+}
+.WikiFont-arrow-left:before {
+	content: "\e001";
+}
+.WikiFont-tick:before {
+	content: "\e002";
+}
+.WikiFont-x:before {
+	content: "\e003";
+}
+.WikiFont-x-circle:before {
+	content: "\e004";
+}
+.WikiFont-unstar:before {
+	content: "\e005";
+}
+.WikiFont-star:before {
+	content: "\e006";
+}
+.WikiFont-sun:before {
+	content: "\e007";
+}
+.WikiFont-star-circle:before {
+	content: "\e008";
+}
+.WikiFont-funnel:before {
+	content: "\e009";
+}
+.WikiFont-eye:before {
+	content: "\e010";
+}
+.WikiFont-eye-lid:before {
+	content: "\e011";
+}
+.WikiFont-bookmark:before {
+	content: "\e012";
+}
+.WikiFont-printer:before {
+	content: "\e013";
+}
+.WikiFont-puzzle:before {
+	content: "\e014";
+}
+.WikiFont-clock:before {
+	content: "\e015";
+}
+.WikiFont-dice:before {
+	content: "\e016";
+}
+.WikiFont-move:before {
+	content: "\e017";
+}
+.WikiFont-gear:before {
+	content: "\e018";
+}
+.WikiFont-ellipsis:before {
+	content: "\e019";
+}
+.WikiFont-envelope:before {
+	content: "\e020";
+}
+.WikiFont-pin:before {
+	content: "\e021";
+}
+.WikiFont-caret:before {
+	content: "\e022";
+}
+.WikiFont-download:before {
+	content: "\e023";
+}
+
+
+/* STRIPES e040-043
+*/
+.WikiFont-stripe-compact:before {
+	content: "\e040";
+}
+.WikiFont-stripe-toc:before {
+	content: "\e041";
+}
+.WikiFont-stripe-expanded:before {
+	content: "\e042";
+}
+
+
+/* WIKIPEDIA LOGO e400-401
+*/
+
+.WikiFont-w:before {
+	content: "\e400";
+}
+
+
+/* UI MODERATION ELEMENTS e500-508 
+*/
+
+.WikiFont-article:before {
+	content: "\e100";
+}
+.WikiFont-article-check:before {
+	content: "\e101";
+}
+.WikiFont-article-search:before {
+	content: "\e102";
+}
+
+.WikiFont-trash:before {
+	content: "\e500";
+}
+.WikiFont-trash-slash:before {
+	content: "\e501";
+}
+.WikiFont-block:before {
+	content: "\e502";
+
+	.WikiFont-block-slash:before {
+		content: "\e503";
+	}
+	.WikiFont-flag:before {
+		content: "\e504";
+	}
+	.WikiFont-flag-slash:before {
+		content: "\e505";
+	}
+	.WikiFont-play:before {
+		content: "\e506";
+	}
+	.WikiFont-stop:before {
+		content: "\e507";
+	}
+	.WikiFont-lock:before {
+		content: "\e508";
+	}
+
+
+/* USER e600-602
+*/
+.WikiFont-user-bust:before {
+	content: "\e600";
+}
+.WikiFont-user-smile:before {
+	content: "\e601";
+}
+.WikiFont-user-sleep:before {
+	content: "\e602";
+}
+
+
+/* TRANSLATION e700
+*/
+.WikiFont-translate:before {
+	content: "\e700";
+}
+
+
+/* CONTRIBUTION e800-845
+*/
+.WikiFont-pencil:before {
+	content: "\e800";
+}
+.WikiFont-pencil-revert:before {
+	content: "\e801";
+}
+.WikiFont-pencil-lock:before {
+	content: "\e802";
+}
+
+
+.WikiFont-speech-bubble:before {
+	content: "\e810";
+}
+.WikiFont-speech-bubbles:before {
+	content: "\e811";
+}
+.WikiFont-speech-bubble-add:before {
+	content: "\e812";
+}
+.WikiFont-speech-bubble-smile:before {
+	content: "\e813";
+}
+
+
+.WikiFont-link:before {
+	content: "\e820";
+}
+
+
+.WikiFont-quotes:before {
+	content: "\e830";
+}
+.WikiFont-quotes-add:before {
+	content: "\e831";
+}
+
+
+.WikiFont-image:before {
+	content: "\e840";
+}
+.WikiFont-image-lock:before {
+	content: "\e841";
+}
+.WikiFont-image-add:before {
+	content: "\e842";
+}
+.WikiFont-image-main-placeholder:before {
+	content: "\e843";
+}
+.WikiFont-folder:before {
+	content: "\e844";
+}
+.WikiFont-folder-main-placeholder:before {
+	content: "\e845";
+}
+
+
+/* WIKI-X e900
+*/
+.WikiFont-wikitrail:before {
+	content: "\e900";
+}
+
+
+
+
